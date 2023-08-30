@@ -1,0 +1,80 @@
+safeway:
+  qa2:
+    api:
+      USER: testpush27june
+      EMAIL: testpush27june@mail7.io
+      BASE_URL: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventlistener/v1/event/partner/chc/eopn
+      BANNER: SAFEWAY
+      HEADERS_Content_Type: text/xml
+      ID: 13724502
+      PIN: 1111
+      CLIENT_ID: 137531
+      FIRST_Name: Carol
+      LAST_Name: GREENE
+      Banner: SAFEWAY
+      STORE_NUM: 9816
+      PRESCRIPTION_NUMBER: 6018816
+      DATE_OF_BIRTH: 1980-05-10T20:00:00Z
+      MOBILE_NUMBER: 6463710063
+      EXPECTED_PUSHTITLE: Prescription is eligible for Refill
+      EXPECTED_PUSHBODY: SAFEWAY Pharmacy - Your prescription is due for Refill
+randalls:
+  qa2:
+    api:
+      USER: testpush27june
+      EMAIL: testpush27june@mail7.io
+      BASE_URL: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventlistener/v1/event/partner/chc/eopn
+      BANNER: RANDALLS
+      HEADERS_Content_Type: text/xml
+      ID: 13724502
+      PIN: 1111
+      CLIENT_ID: 137531
+      FIRST_Name: Carol
+      LAST_Name: GREENE
+      Banner: RANDALLS
+      STORE_NUM: 9816
+      PRESCRIPTION_NUMBER: 6018816
+      DATE_OF_BIRTH: 1980-05-10T20:00:00Z
+      MOBILE_NUMBER: 6463710063
+      EXPECTED_PUSHTITLE: Prescription is eligible for Refill
+      EXPECTED_PUSHBODY: RANDALLS Pharmacy - Your prescription is due for Refill
+acme:
+  qa2:
+    api:
+      USER: testpush27june
+      EMAIL: testpush27june@mail7.io
+      BASE_URL: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventlistener/v1/event/partner/chc/eopn
+      BANNER: ACME
+      HEADERS_Content_Type: text/xml
+      ID: 13724502
+      PIN: 1111
+      CLIENT_ID: 137531
+      FIRST_Name: Carol
+      LAST_Name: GREENE
+      Banner: ACME
+      STORE_NUM: 9816
+      PRESCRIPTION_NUMBER: 6018816
+      DATE_OF_BIRTH: 1980-05-10T20:00:00Z
+      MOBILE_NUMBER: 6463710063
+      EXPECTED_PUSHTITLE: Prescription is eligible for Refill
+      EXPECTED_PUSHBODY: ACME Pharmacy - Your prescription is due for Refill
+unitedsupermarkets:
+  qa2:
+    api:
+      USER: pushunited7july
+      EMAIL: pushunited7july@mail7.io
+      BASE_URL: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventlistener/v1/event/partner/chc/eopn
+      BANNER: UNITED
+      HEADERS_Content_Type: text/xml
+      ID: 20107953
+      PIN: 1111
+      CLIENT_ID: 118738
+      FIRST_Name: INTRANSIGENT
+      LAST_Name: PERSON
+      Banner: UNITED
+      STORE_NUM: 0546
+      PRESCRIPTION_NUMBER: 6237971
+      DATE_OF_BIRTH: 1989-03-01T20:00:00Z
+      MOBILE_NUMBER: 6463710063
+      EXPECTED_PUSHTITLE: Prescription is eligible for Refill
+      EXPECTED_PUSHBODY: UNITED Pharmacy - Your prescription is due for Refill

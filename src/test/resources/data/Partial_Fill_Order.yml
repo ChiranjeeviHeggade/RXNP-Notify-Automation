@@ -1,0 +1,149 @@
+safeway:
+  qa2:
+    api:
+      USER: testpush27june
+      BASE_URL: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventlistener/v1/event/partner/chc/eopn
+      BANNER: SAFEWAY
+      HEADERS_Content_Type: text/xml
+      ID: 13724502
+      CLIENT_ID: 137531
+      FIRST_Name: Carol
+      LAST_Name: GREENE
+      STORE_NUM: 9816
+      PRESCRIPTION_NUMBER: 6018816
+      DATE_OF_BIRTH: 1980-05-10T20:00:00Z
+      MOBILE_NUMBER: 6463710063
+      EXPECTED_SUBJECT: SAFEWAY Pharmacy Preion is partially filled
+      EXPECTED_SENDER: SAFEWAY Pharmacy <noreply@safeway.com>
+      EXPECTED_MAILBODY1: Hi
+      EXPECTED_MAILBODY2: Carol
+      EXPECTED_MAILBODY3: Your
+      EXPECTED_MAILBODY4: prescription
+      EXPECTED_MAILBODY5: for is
+      EXPECTED_MAILBODY6: partially filled and
+      EXPECTED_MAILBODY7: can be picked up at the pharmacy.
+      EXPECTED_TITLE1: Safeway - Home | Facebook
+      EXPECTED_TITLE2: Safeway (@safeway) • Instagram photos and videos
+      EXPECTED_TITLE3: Safeway (@Safeway) / X
+      EXPECTED_TITLE4: Pinterest
+      EXPECTED_TITLE5: Safeway - YouTube
+      EXPECTED_TITLE6: Safeway Deals & Delivery on the App Store
+      EXPECTED_TITLE7: Safeway Deals & Delivery - Apps on Google Play
+      EXPECTED_LINK: guestservices@unitedtexas.com
+randalls:
+  qa2:
+    api:
+      USER: testpush27june
+      TRANSACTION_STATUS: RX_TRANSFER_REQUESTED
+      REQUEST_ID: 74d28f06-fdeb-11ec-b939-0242ac120002_TRANSFER_REQUESTED_Auth
+      BASE_URL: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventlistener/v1/event/partner/chc/eopn
+      BANNER: RANDALLS
+      HEADERS_Content_Type: application/json
+      CONTENT_LENGTH: 226
+      HEADERS_HOST: rxie.qa2.westus.aks.az.albertsons.com
+      NOTIFICATION_SOURCE: rxwa-pharmacy
+      ID: 13724502
+      FIRST_Name: Carol
+      LAST_Name: GREENE
+      STORE_NUM: 9816
+      PRESCRIPTION_NUMBER: 6018813
+      DELIVERY_MODE: Delivery
+      PLATFORM: Android
+      OBJ_ID: eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4Njc2MDc3ZS0xNmVkLTQ4OGMtYWFhZi01NzE1NjA3ODE2MDUifQ
+      LAST_ACCESSED: 2022-12-13T09:15:38.036Z
+      DEVICES: devices
+      EXPECTED_SUBJECT: RANDAllS Pharmacy Preion is partially filled
+      EXPECTED_SENDER: RANDALLS Pharmacy <noreply@randalls.com>
+      EXPECTED_MAILBODY1: Hi
+      EXPECTED_MAILBODY2: Carol
+      EXPECTED_MAILBODY3: Your
+      EXPECTED_MAILBODY4: prescription
+      EXPECTED_MAILBODY5: for is
+      EXPECTED_MAILBODY6: partially filled and
+      EXPECTED_MAILBODY7: can be picked up at the pharmacy.
+      EXPECTED_TITLE1: Randalls - Home | Facebook
+      EXPECTED_TITLE2: Randalls (@randalls) • Instagram photos and videos
+      EXPECTED_TITLE3: Randalls (@randalls) / X
+      EXPECTED_TITLE4: Pinterest
+      EXPECTED_TITLE5: Randalls - YouTube
+      EXPECTED_TITLE6: Randalls Deals & Delivery on the App Store
+      EXPECTED_TITLE7: Randalls Deals & Delivery - Apps on Google Play
+      EXPECTED_LINK: guestservices@unitedtexas.com
+albertsons:
+  qa2:
+    api:
+      USER: testpush27june
+      TRANSACTION_STATUS: RX_TRANSFER_REQUESTED
+      REQUEST_ID: 74d28f06-fdeb-11ec-b939-0242ac120002_TRANSFER_REQUESTED_Auth
+      BASE_URL: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventlistener/v1/event/partner/chc/eopn
+      BANNER: ALBERTSONS
+      HEADERS_Content_Type: application/json
+      CONTENT_LENGTH: 226
+      HEADERS_HOST: rxie.qa2.westus.aks.az.albertsons.com
+      NOTIFICATION_SOURCE: rxwa-pharmacy
+      ID: 13724502
+      FIRST_Name: Carol
+      LAST_Name: GREENE
+      STORE_NUM: 9816
+      PRESCRIPTION_NUMBER: 6018813
+      DELIVERY_MODE: Delivery
+      PLATFORM: Android
+      OBJ_ID: eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4Njc2MDc3ZS0xNmVkLTQ4OGMtYWFhZi01NzE1NjA3ODE2MDUifQ
+      LAST_ACCESSED: 2022-12-13T09:15:38.036Z
+      DEVICES: devices
+      EXPECTED_SUBJECT: ALBERTSONS Pharmacy Preion is partially filled
+      EXPECTED_SENDER: ALBERTSONS Pharmacy <noreply@albertsons.com>
+      EXPECTED_MAILBODY1: Hi
+      EXPECTED_MAILBODY2: Carol
+      EXPECTED_MAILBODY3: Your
+      EXPECTED_MAILBODY4: prescription
+      EXPECTED_MAILBODY5: for is
+      EXPECTED_MAILBODY6: partially filled and
+      EXPECTED_MAILBODY7: can be picked up at the pharmacy.
+      EXPECTED_TITLE1: ALBERTSONS - Home | Facebook
+      EXPECTED_TITLE2: ALBERTSONS (@Albertsons) • Instagram photos and videos
+      EXPECTED_TITLE3: ALBERTSONS (@Albertsons) / X
+      EXPECTED_TITLE4: Pinterest
+      EXPECTED_TITLE5: ALBERTSONS - YouTube
+      EXPECTED_TITLE6: ALBERTSONS Deals & Delivery on the App Store
+      EXPECTED_TITLE7: ALBERTSONS Deals & Delivery - Apps on Google Play
+      EXPECTED_LINK: guestservices@unitedtexas.com
+unitedsupermarkets:
+  qa2:
+    api:
+      USER: pushunited7july
+      REQUEST_ID: 74d28f06-fdeb-11ec-b939-0242ac120002_TRANSFER_REQUESTED_Auth
+      BASE_URL: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventlistener/v1/event/partner/chc/eopn
+      BANNER: ALBERTSONS
+      HEADERS_Content_Type: application/json
+      CONTENT_LENGTH: 226
+      HEADERS_HOST: rxie.qa2.westus.aks.az.albertsons.com
+      ID: 20107953
+      FIRST_Name: INTRANSIGENT
+      LAST_Name: PERSON
+      STORE_NUM: 0546
+      PRESCRIPTION_NUMBER: 6237970
+      DELIVERY_MODE: Delivery
+      PLATFORM: Android
+      OBJ_ID: eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4Njc2MDc3ZS0xNmVkLTQ4OGMtYWFhZi01NzE1NjA3ODE2MDUifQ
+      LAST_ACCESSED: 2022-12-13T09:15:38.036Z
+      DEVICES: devices
+      EXPECTED_SUBJECT: ALBERTSONS Pharmacy Preion is partially filled
+      EXPECTED_SENDER: ALBERTSONS Pharmacy <noreply@albertsons.com>
+      EXPECTED_MAILBODY1: Hi
+      EXPECTED_MAILBODY2: Carol
+      EXPECTED_MAILBODY3: Your
+      EXPECTED_MAILBODY4: prescription
+      EXPECTED_MAILBODY5: for is
+      EXPECTED_MAILBODY6: partially filled and
+      EXPECTED_MAILBODY7: can be picked up at the pharmacy.
+      EXPECTED_TITLE1: ALBERTSONS - Home | Facebook
+      EXPECTED_TITLE2: ALBERTSONS (@Albertsons) • Instagram photos and videos
+      EXPECTED_TITLE3: ALBERTSONS (@Albertsons) / X
+      EXPECTED_TITLE4: Pinterest
+      EXPECTED_TITLE5: ALBERTSONS - YouTube
+      EXPECTED_TITLE6: ALBERTSONS Deals & Delivery on the App Store
+      EXPECTED_TITLE7: ALBERTSONS Deals & Delivery - Apps on Google Play
+      EXPECTED_LINK: guestservices@unitedtexas.com
+
+

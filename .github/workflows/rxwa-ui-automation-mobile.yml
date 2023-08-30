@@ -1,0 +1,39 @@
+name: rxwa-ui-automation-mobile
+on:
+  workflow_dispatch:
+    inputs:
+      Test:
+        type: string
+        required: true
+        description: "TEST"
+        default: "MobileRunner"
+      Banner:
+        type: string
+        required: true
+        description: "Banner"
+        default: "unitedsupermarkets"
+      MobileDevice:
+        type: string
+        required: true
+        description: "MobileDevice"
+        default: "pixel3"
+      MobileEnv:
+        type: string
+        required: true
+        description: "MobileEnv"
+        default: "qa2"
+      CUCUMBER_FILTER:
+        type: string
+        required: true
+        description: "CUCUMBER_FILTER"
+        default: "@smoke"
+        
+        
+
+jobs:
+  call-ci-workflow:
+    uses: albertsons/esgh-central-workflow-aut/.github/workflows/run-rest-assured-automation.yml@v1
+    with:
+      javaVersion: 11
+      args: "-Dtest=${{ github.event.inputs.Test }} -Dbanner=${{ github.event.inputs.Banner }} -DmobileDevice=${{ github.event.inputs.MobileDevice }} -DmobileEnv=${{ github.event.inputs.MobileEnv }} -Dcucumber.filter.tags=${{ github.event.inputs.CUCUMBER_FILTER}}" 
+      test_reports: '**/output/report/*'

@@ -1,0 +1,194 @@
+safeway:
+  qa2:
+    api:
+      USER: testpush27june
+      BASE_URL: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventlistener/v1/event/partner/chc/eopn
+      BANNER: SAFEWAY
+      HEADERS_Content_Type: text/xml
+      CLIENT_ID: 137531
+      ID: 13751510
+      FIRST_Name: Randy
+      LAST_Name: Whitaker
+      STORE_NUM: 9816
+      PRESCRIPTION_NUMBER: 6020635
+      DATE_OF_BIRTH: 2015-10-30T20:00:00Z
+      MOBILE_NUMBER: 8189750320
+      EXPECTED_SUBJECT: Your SAFEWAY Pharmacy Preion is Ready for Pickup
+      EXPECTED_SENDER: SAFEWAY Pharmacy <noreply@safeway.com>
+      EXPECTED_MAILBODY1: Hi
+      EXPECTED_MAILBODY2: <FirstName>
+      EXPECTED_MAILBODY3: Your
+      EXPECTED_MAILBODY4: prescription
+      EXPECTED_MAILBODY5: for is
+      EXPECTED_MAILBODY6: ready to be
+      EXPECTED_MAILBODY7: picked up.
+      EXPECTED_LINK: guestservices@unitedtexas.com
+      EXPECTED_TITLE1: Safeway - Home | Facebook
+      EXPECTED_TITLE2: Safeway (@safeway) • Instagram photos and videos
+      EXPECTED_TITLE3: Safeway (@Safeway) / X
+      EXPECTED_TITLE4: Pinterest
+      EXPECTED_TITLE5: Safeway - YouTube
+      EXPECTED_TITLE6: Safeway Deals & Delivery on the App Store
+      EXPECTED_TITLE7: Safeway Deals & Delivery - Apps on Google Play
+randalls:
+  qa2:
+    api:
+      USER: testpush27june
+      TRANSACTION_STATUS: RX_TRANSFER_REQUESTED
+      REQUEST_ID: 74d28f06-fdeb-11ec-b939-0242ac120002_TRANSFER_REQUESTED_Auth
+      BASE_URL: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventrestlistener/v1/event/rxwa-pharmacy/notification/
+      BANNER: RANDALLS
+      HEADERS_Content_Type: application/json
+      CONTENT_LENGTH: 226
+      HEADERS_HOST: rxie.qa2.westus.aks.az.albertsons.com
+      NOTIFICATION_SOURCE: rxwa-pharmacy
+      ID: 13724502
+      FIRST_Name: Carol
+      LAST_Name: GREENE
+      STORE_NUM: 9816
+      PRESCRIPTION_NUMBER: 6018813
+      DELIVERY_MODE: Delivery
+      PLATFORM: Android
+      OBJ_ID: eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4Njc2MDc3ZS0xNmVkLTQ4OGMtYWFhZi01NzE1NjA3ODE2MDUifQ
+      LAST_ACCESSED: 2022-12-13T09:15:38.036Z
+      DEVICES: devices
+      EXPECTED_SUBJECT: Your RANDALLS Pharmacy Transfer Request has been sent
+      EXPECTED_PREHEADER: Let's kick off your health journey together!
+      EXPECTED_SENDER: RANDALLS Pharmacy <noreply@randalls.com>
+      EXPECTED_MAILBODY1: Hi Carol
+      EXPECTED_MAILBODY2: Your transfer request
+      EXPECTED_MAILBODY3: was sent.
+      EXPECTED_MAILBODY4: we will update you
+      EXPECTED_MAILBODY5: when the transfer is
+      EXPECTED_MAILBODY6: in progress,
+      EXPECTED_MAILBODY7: ready for pickup or needs additional information.
+tomthumb:
+  qa2:
+    api:
+      USER: testpush27june
+      TRANSACTION_STATUS: RX_TRANSFER_REQUESTED
+      REQUEST_ID: 74d28f06-fdeb-11ec-b939-0242ac120002_TRANSFER_REQUESTED_Auth
+      BASE_URL: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventrestlistener/v1/event/rxwa-pharmacy/notification/
+      BANNER: TOMTHUMB
+      HEADERS_Content_Type: application/json
+      CONTENT_LENGTH: 226
+      HEADERS_HOST: rxie.qa2.westus.aks.az.albertsons.com
+      NOTIFICATION_SOURCE: rxwa-pharmacy
+      ID: 13724502
+      FIRST_Name: Carol
+      LAST_Name: GREENE
+      STORE_NUM: 9816
+      PRESCRIPTION_NUMBER: 6018813
+      DELIVERY_MODE: Delivery
+      PLATFORM: Android
+      OBJ_ID: eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4Njc2MDc3ZS0xNmVkLTQ4OGMtYWFhZi01NzE1NjA3ODE2MDUifQ
+      LAST_ACCESSED: 2022-12-13T09:15:38.036Z
+      DEVICES: devices
+      EXPECTED_SUBJECT: Your TOMTHUMB Pharmacy Transfer Request has been sent
+      EXPECTED_PREHEADER: Let's kick off your health journey together!
+      EXPECTED_SENDER: TOMTHUMB Pharmacy <noreply@tomthumb.com>
+      EXPECTED_MAILBODY1: Hi Carol
+      EXPECTED_MAILBODY2: Your transfer request
+      EXPECTED_MAILBODY3: was sent.
+      EXPECTED_MAILBODY4: we will update you
+      EXPECTED_MAILBODY5: when the transfer is
+      EXPECTED_MAILBODY6: in progress,
+      EXPECTED_MAILBODY7: ready for pickup or needs additional information.
+haggen:
+  qa2:
+    api:
+      USER: testpush27june
+      TRANSACTION_STATUS: RX_TRANSFER_REQUESTED
+      REQUEST_ID: 74d28f06-fdeb-11ec-b939-0242ac120002_TRANSFER_REQUESTED_Auth
+      BASE_URL: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventrestlistener/v1/event/rxwa-pharmacy/notification/
+      BANNER: HAGGEN
+      HEADERS_Content_Type: application/json
+      CONTENT_LENGTH: 226
+      HEADERS_HOST: rxie.qa2.westus.aks.az.albertsons.com
+      NOTIFICATION_SOURCE: rxwa-pharmacy
+      ID: 13724502
+      FIRST_Name: Carol
+      LAST_Name: GREENE
+      STORE_NUM: 9816
+      PRESCRIPTION_NUMBER: 6018813
+      DELIVERY_MODE: Delivery
+      PLATFORM: Android
+      OBJ_ID: eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4Njc2MDc3ZS0xNmVkLTQ4OGMtYWFhZi01NzE1NjA3ODE2MDUifQ
+      LAST_ACCESSED: 2022-12-13T09:15:38.036Z
+      DEVICES: devices
+      EXPECTED_SUBJECT: Your HAGGEN Pharmacy Transfer Request has been sent
+      EXPECTED_PREHEADER: Let's kick off your health journey together!
+      EXPECTED_SENDER: HAGGEN Pharmacy <noreply@haggen.com>
+      EXPECTED_MAILBODY1: Hi Carol
+      EXPECTED_MAILBODY2: Your transfer request
+      EXPECTED_MAILBODY3: was sent.
+      EXPECTED_MAILBODY4: we will update you
+      EXPECTED_MAILBODY5: when the transfer is
+      EXPECTED_MAILBODY6: in progress,
+      EXPECTED_MAILBODY7: ready for pickup or needs additional information.
+vons:
+  qa2:
+    api:
+      USER: testpush27june
+      TRANSACTION_STATUS: RX_TRANSFER_REQUESTED
+      REQUEST_ID: 74d28f06-fdeb-11ec-b939-0242ac120002_TRANSFER_REQUESTED_Auth
+      BASE_URL: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventrestlistener/v1/event/rxwa-pharmacy/notification/
+      BANNER: VONS
+      HEADERS_Content_Type: application/json
+      CONTENT_LENGTH: 226
+      HEADERS_HOST: rxie.qa2.westus.aks.az.albertsons.com
+      NOTIFICATION_SOURCE: rxwa-pharmacy
+      ID: 13724502
+      FIRST_Name: Carol
+      LAST_Name: GREENE
+      STORE_NUM: 9816
+      PRESCRIPTION_NUMBER: 6018813
+      DELIVERY_MODE: Delivery
+      PLATFORM: Android
+      OBJ_ID: eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4Njc2MDc3ZS0xNmVkLTQ4OGMtYWFhZi01NzE1NjA3ODE2MDUifQ
+      LAST_ACCESSED: 2022-12-13T09:15:38.036Z
+      DEVICES: devices
+      EXPECTED_SUBJECT: Your VONS Pharmacy Transfer Request has been sent
+      EXPECTED_PREHEADER: Let's kick off your health journey together!
+      EXPECTED_SENDER: VONS Pharmacy <noreply@vons.com>
+      EXPECTED_MAILBODY1: Hi Carol
+      EXPECTED_MAILBODY2: Your transfer request
+      EXPECTED_MAILBODY3: was sent.
+      EXPECTED_MAILBODY4: we will update you
+      EXPECTED_MAILBODY5: when the transfer is
+      EXPECTED_MAILBODY6: in progress,
+      EXPECTED_MAILBODY7: ready for pickup or needs additional information.
+albertsons:
+  qa2:
+    api:
+      USER: testpush27june
+      TRANSACTION_STATUS: RX_TRANSFER_REQUESTED
+      REQUEST_ID: 74d28f06-fdeb-11ec-b939-0242ac120002_TRANSFER_REQUESTED_Auth
+      BASE_URL: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventrestlistener/v1/event/rxwa-pharmacy/notification/
+      BANNER: ALBERTSONS
+      HEADERS_Content_Type: application/json
+      CONTENT_LENGTH: 226
+      HEADERS_HOST: rxie.qa2.westus.aks.az.albertsons.com
+      NOTIFICATION_SOURCE: rxwa-pharmacy
+      ID: 13724502
+      FIRST_Name: Carol
+      LAST_Name: GREENE
+      STORE_NUM: 9816
+      PRESCRIPTION_NUMBER: 6018813
+      DELIVERY_MODE: Delivery
+      PLATFORM: Android
+      OBJ_ID: eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4Njc2MDc3ZS0xNmVkLTQ4OGMtYWFhZi01NzE1NjA3ODE2MDUifQ
+      LAST_ACCESSED: 2022-12-13T09:15:38.036Z
+      DEVICES: devices
+      EXPECTED_SUBJECT: Your ALBERTSONS Pharmacy Transfer Request has been sent
+      EXPECTED_PREHEADER: Let's kick off your health journey together!
+      EXPECTED_SENDER: ALBERTSONS Pharmacy <noreply@albertsons.com>
+      EXPECTED_MAILBODY1: Hi Carol
+      EXPECTED_MAILBODY2: Your transfer request
+      EXPECTED_MAILBODY3: was sent.
+      EXPECTED_MAILBODY4: we will update you
+      EXPECTED_MAILBODY5: when the transfer is
+      EXPECTED_MAILBODY6: in progress,
+      EXPECTED_MAILBODY7: ready for pickup or needs additional information.
+
+

@@ -1,0 +1,31 @@
+safeway:
+  qa2:
+    api:
+      USER: testpush27june
+      BASE_URL: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventlistener/v1/event/partner/chc/eopn
+      BANNER: SAFEWAY
+      HEADERS_Content_Type: text/xml
+      ID: 13724502
+      CLIENT_ID: 137531
+      FIRST_Name: Carol
+      LAST_Name: GREENE
+      STORE_NUM: 9816
+      PRESCRIPTION_NUMBER: 6018816
+      DATE_OF_BIRTH: 1980-05-10T20:00:00Z
+      MOBILE_NUMBER: 8189750320
+      EXPECTED_SUBJECT: Your SAFEWAY Pharmacy Preion is Ready for Pickup
+      EXPECTED_SENDER: SAFEWAY Pharmacy <noreply@safeway.com>
+      EXPECTED_MAILBODY1:
+      EXPECTED_MAILBODY2:
+      EXPECTED_MAILBODY3:
+      EXPECTED_MAILBODY4:
+      EXPECTED_MAILBODY5:
+      EXPECTED_MAILBODY6:
+      EXPECTED_MAILBODY7:
+      EXPECTED_TITLE1: Safeway - Home | Facebook
+      EXPECTED_TITLE2: Safeway (@safeway) • Instagram photos and videos
+      EXPECTED_TITLE3: Safeway (@Safeway) / X
+      EXPECTED_TITLE4: Pinterest
+      EXPECTED_TITLE5: Safeway - YouTube
+      EXPECTED_TITLE6: Safeway Deals & Delivery on the App Store
+      EXPECTED_TITLE7: Safeway Deals & Delivery - Apps on Google Play

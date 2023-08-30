@@ -1,0 +1,229 @@
+safeway:
+  qa2:
+    api:
+      USER: testpush27june
+      TRANSACTION_STATUS: RX_DOSAGE_REMINDER
+      REQUEST_ID: 8afa928e-58f0-4cfd-86ca-a9d63c1e5dbe
+      BASE_URL: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventrestlistener/v1/event/rxwa-pharmacy/notification/
+      BANNER: SAFEWAY
+      HEADERS_Content_Type: application/json
+      CONTENT_LENGTH: 226
+      HEADERS_HOST: rxie.qa2.westus.aks.az.albertsons.com
+      NOTIFICATION_SOURCE: rxwa-pharmacy
+      ID: 13751510
+      FIRST_Name: Randy
+      LAST_Name: Whitaker
+      STORE_NUM: 9816
+      PRESCRIPTION_NUMBER: 6020635
+      DELIVERY_MODE: delivery
+      PLATFORM: Android
+      OBJ_ID: eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4Njc2MDc3ZS0xNmVkLTQ4OGMtYWFhZi01NzE1NjA3ODE2MDUifQ.eyJpYXQiOjE2NjYwMTk2NjQsImp0aSI6IjY2ODg5NTQ1LTM5YmUtNDY0OS05MGZlLTUxYmMzMGYwZjEwMCIsImlzcyI6Imh0dHBzOi8vYXV0aC5wZXJmZWN0b21vYmlsZS5jb20vYXV0aC9yZWFsbXMvc2FmZXdheS1wZXJmZWN0b21vYmlsZS1jb20iLCJhdWQiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL3NhZmV3YXktcGVyZmVjdG9tb2JpbGUtY29tIiwic3ViIjoiYWY3ZDM5MTctNmQzYy00YmIwLWFiMmYtNjI0OTVmNDIzMDI1IiwidHlwIjoiT2ZmbGluZSIsImF6cCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwibm9uY2UiOiI0YzVlYzhlNS1jMmFhLTQwMjAtOGZmNy1lOTA4ODlkMDYyNTkiLCJzZXNzaW9uX3N0YXRlIjoiNGQ3YjQ0YjUtNjUyNC00Mjg4LWJkZGQtMzQ0NjNiODBjYjdkIiwic2NvcGUiOiJvcGVuaWQgb2ZmbGluZV9hY2Nlc3MifQ.OjyHcIqPtfJ98-Dnaceu1zkSpTAdldxwnGVSmb8Nyz0
+      LAST_ACCESSED: 2022-12-13T09:15:38.036Z
+      DEVICES: devices
+      EXPECTED_SUBJECT: Pharmacy medication reminder
+      EXPECTED_PREHEADER: Let's kick off your health journey together!
+      EXPECTED_SENDER: SAFEWAY Pharmacy <noreply@safeway.com>
+      EXPECTED_MAILBODY1: Hi
+      EXPECTED_MAILBODY2: It's time to take your
+      EXPECTED_MAILBODY3: dose of  .
+      EXPECTED_MAILBODY4: You have enabled email notifications to remind you
+      EXPECTED_MAILBODY5: when to take this medication.
+      EXPECTED_MAILBODY6: Dosage instructions
+      EXPECTED_MAILBODY7: Please visit your prescription details page for more information.
+      EXPECTED_TITLE1: Safeway - Home | Facebook
+      EXPECTED_TITLE2: Safeway (@safeway) • Instagram photos and videos
+      EXPECTED_TITLE3: Safeway (@Safeway) / X
+      EXPECTED_TITLE4: Pinterest
+      EXPECTED_TITLE5: Safeway - YouTube
+      EXPECTED_TITLE6: Safeway Deals & Delivery on the App Store
+      EXPECTED_TITLE7: Safeway Deals & Delivery - Apps on Google Play
+      EXPECTED_LINK: guestservices@unitedtexas.com
+      SMSWEBSITE: https://anonymsms.com/number/13326990185/
+      EXPECTED_SMSBODY1: SAFEWAY Pharmacy We care
+      EXPECTED_SMSBODY2: This is a gentle reminder to take your correctly. .
+      EXPECTED_SMSBODY3: View Details https://safewayqa.onelink.me/
+      EXPECTED_SMSBODY4:  To cancel all Pharmacy medication notifications,
+      EXPECTED_SMSBODY5:  reply STOP.
+randalls:
+  qa2:
+    api:
+      USER: testpush27june
+      TRANSACTION_STATUS: RX_DOSAGE_REMINDER
+      REQUEST_ID: 8afa928e-58f0-4cfd-86ca-a9d63c1e5dbe
+      BASE_URL: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventrestlistener/v1/event/rxwa-pharmacy/notification/
+      BANNER: RANDALLS
+      HEADERS_Content_Type: application/json
+      CONTENT_LENGTH: 226
+      HEADERS_HOST: rxie.qa2.westus.aks.az.albertsons.com
+      NOTIFICATION_SOURCE: rxwa-pharmacy
+      ID: 13751510
+      FIRST_Name: Randy
+      LAST_Name: Whitaker
+      STORE_NUM: 9816
+      PRESCRIPTION_NUMBER: 6020635
+      DELIVERY_MODE: Delivery
+      PLATFORM: Andriod
+      OBJ_ID: eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4Njc2MDc3ZS0xNmVkLTQ4OGMtYWFhZi01NzE1NjA3ODE2MDUifQ.eyJpYXQiOjE2NjYwMTk2NjQsImp0aSI6IjY2ODg5NTQ1LTM5YmUtNDY0OS05MGZlLTUxYmMzMGYwZjEwMCIsImlzcyI6Imh0dHBzOi8vYXV0aC5wZXJmZWN0b21vYmlsZS5jb20vYXV0aC9yZWFsbXMvc2FmZXdheS1wZXJmZWN0b21vYmlsZS1jb20iLCJhdWQiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL3NhZmV3YXktcGVyZmVjdG9tb2JpbGUtY29tIiwic3ViIjoiYWY3ZDM5MTctNmQzYy00YmIwLWFiMmYtNjI0OTVmNDIzMDI1IiwidHlwIjoiT2ZmbGluZSIsImF6cCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwibm9uY2UiOiI0YzVlYzhlNS1jMmFhLTQwMjAtOGZmNy1lOTA4ODlkMDYyNTkiLCJzZXNzaW9uX3N0YXRlIjoiNGQ3YjQ0YjUtNjUyNC00Mjg4LWJkZGQtMzQ0NjNiODBjYjdkIiwic2NvcGUiOiJvcGVuaWQgb2ZmbGluZV9hY2Nlc3MifQ.OjyHcIqPtfJ98-Dnaceu1zkSpTAdldxwnGVSmb8Nyz0
+      LAST_ACCESSED: 2022-12-13T09:15:38.036Z
+      DEVICES: devices
+      EXPECTED_SUBJECT: Pharmacy medication reminder
+      EXPECTED_PREHEADER: Let's kick off your health journey together!
+      EXPECTED_SENDER: RANDALLS Pharmacy <noreply@randalls.com>
+      EXPECTED_MAILBODY1: Hi
+      EXPECTED_MAILBODY2: It's time to take your
+      EXPECTED_MAILBODY3: dose of  .
+      EXPECTED_MAILBODY4: You have enabled email notifications to remind you
+      EXPECTED_MAILBODY5: when to take this medication.
+      EXPECTED_MAILBODY6: Dosage instructions
+      EXPECTED_MAILBODY7: Please visit your prescription details page for more information.
+      EXPECTED_TITLE1: Randalls - Home | Facebook
+      EXPECTED_TITLE2: Randalls (@randalls) • Instagram photos and videos
+      EXPECTED_TITLE3: LogintoTwitter/X
+      EXPECTED_TITLE4: Pinterest
+      EXPECTED_TITLE5: Randalls - YouTube
+      EXPECTED_TITLE6: Randalls Deals & Delivery on the App Store
+      EXPECTED_TITLE7: Randalls Deals & Delivery - Apps on Google Play
+      EXPECTED_LINK: guestservices@unitedtexas.com
+      SMSWEBSITE: https://anonymsms.com/number/13326990185/
+      EXPECTED_SMSBODY1: SAFEWAY Pharmacy We care
+      EXPECTED_SMSBODY2: This is a gentle reminder to take your correctly. .
+      EXPECTED_SMSBODY3: View Details https://safewayqa.onelink.me/
+      EXPECTED_SMSBODY4: To cancel all Pharmacy medication notifications,
+      EXPECTED_SMSBODY5: reply STOP.
+tomthumb:
+  qa2:
+    api:
+      USER: testpush27june
+      TRANSACTION_STATUS: RX_DOSAGE_REMINDER
+      REQUEST_ID: 8afa928e-58f0-4cfd-86ca-a9d63c1e5dbe
+      BASE_URL: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventrestlistener/v1/event/rxwa-pharmacy/notification/
+      BANNER: TOMTHUMB
+      HEADERS_Content_Type: application/json
+      CONTENT_LENGTH: 226
+      HEADERS_HOST: rxie.qa2.westus.aks.az.albertsons.com
+      NOTIFICATION_SOURCE: rxwa-pharmacy
+      ID: 13724502
+      FIRST_Name: Carol
+      LAST_Name: GREENE
+      STORE_NUM: 9816
+      PRESCRIPTION_NUMBER: 6018813
+      DELIVERY_MODE: Delivery
+      PLATFORM: Andriod
+      OBJ_ID: eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4Njc2MDc3ZS0xNmVkLTQ4OGMtYWFhZi01NzE1NjA3ODE2MDUifQ
+      LAST_ACCESSED: 2022-12-13T09:15:38.036Z
+      DEVICES: devices
+      EXPECTED_SUBJECT: Pharmacy medication reminder
+      EXPECTED_PREHEADER: Let's kick off your health journey together!
+      EXPECTED_SENDER: TOMTHUMB Pharmacy / noreply@tomthumb.com
+      EXPECTED_MAILBODY1: Hi
+      EXPECTED_MAILBODY2: It's time to take your
+      EXPECTED_MAILBODY3: dose of  .
+      EXPECTED_MAILBODY4: You have enabled email notifications to remind you
+      EXPECTED_MAILBODY5: when to take this medication.
+      EXPECTED_MAILBODY6: Dosage instructions
+      EXPECTED_MAILBODY7: Please visit your prescription details page for more information.
+albertsons:
+  qa2:
+    api:
+      USER: testpush27june
+      TRANSACTION_STATUS: RX_DOSAGE_REMINDER
+      REQUEST_ID: 8afa928e-58f0-4cfd-86ca-a9d63c1e5dbe
+      BASE_URL: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventrestlistener/v1/event/rxwa-pharmacy/notification/
+      BANNER: ALBERTSONS
+      HEADERS_Content_Type: application/json
+      CONTENT_LENGTH: 226
+      HEADERS_HOST: rxie.qa2.westus.aks.az.albertsons.com
+      NOTIFICATION_SOURCE: rxwa-pharmacy
+      ID: 13724502
+      FIRST_Name: Carol
+      LAST_Name: GREENE
+      STORE_NUM: 9816
+      PRESCRIPTION_NUMBER: 6018813
+      DELIVERY_MODE: Delivery
+      PLATFORM: Andriod
+      OBJ_ID: eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4Njc2MDc3ZS0xNmVkLTQ4OGMtYWFhZi01NzE1NjA3ODE2MDUifQ
+      LAST_ACCESSED: 2022-12-13T09:15:38.036Z
+      DEVICES: devices
+      EXPECTED_SUBJECT: Pharmacy medication reminder
+      EXPECTED_PREHEADER: Let's kick off your health journey together!
+      EXPECTED_SENDER: ALBERTSONS Pharmacy / noreply@albertsons.com
+      EXPECTED_MAILBODY1: Hi
+      EXPECTED_MAILBODY2: It's time to take your
+      EXPECTED_MAILBODY3: dose of  .
+      EXPECTED_MAILBODY4: You have enabled email notifications to remind you
+      EXPECTED_MAILBODY5: when to take this medication.
+      EXPECTED_MAILBODY6: Dosage instructions
+      EXPECTED_MAILBODY7: Please visit your prescription details page for more information.
+acme:
+  qa2:
+    api:
+      USER: testpush27june
+      TRANSACTION_STATUS: RX_DOSAGE_REMINDER
+      REQUEST_ID: 8afa928e-58f0-4cfd-86ca-a9d63c1e5dbe
+      BASE_URL: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventrestlistener/v1/event/rxwa-pharmacy/notification/
+      BANNER: ACME
+      HEADERS_Content_Type: application/json
+      CONTENT_LENGTH: 226
+      HEADERS_HOST: rxie.qa2.westus.aks.az.albertsons.com
+      NOTIFICATION_SOURCE: rxwa-pharmacy
+      ID: 13724502
+      FIRST_Name: Carol
+      LAST_Name: GREENE
+      STORE_NUM: 9816
+      PRESCRIPTION_NUMBER: 6018813
+      DELIVERY_MODE: Delivery
+      PLATFORM: Andriod
+      OBJ_ID: eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4Njc2MDc3ZS0xNmVkLTQ4OGMtYWFhZi01NzE1NjA3ODE2MDUifQ
+      LAST_ACCESSED: 2022-12-13T09:15:38.036Z
+      DEVICES: devices
+      EXPECTED_SUBJECT: Pharmacy medication reminder
+      EXPECTED_PREHEADER: Let's kick off your health journey together!
+      EXPECTED_SENDER: ACME Pharmacy / noreply@acme.com
+      EXPECTED_MAILBODY1: Hi
+      EXPECTED_MAILBODY2: It's time to take your
+      EXPECTED_MAILBODY3: dose of  .
+      EXPECTED_MAILBODY4: You have enabled email notifications to remind you
+      EXPECTED_MAILBODY5: when to take this medication.
+      EXPECTED_MAILBODY6: Dosage instructions
+      EXPECTED_MAILBODY7: Please visit your prescription details page for more information.
+unitedsupermarkets:
+  qa2:
+    api:
+      USER: pushunited7july
+      TRANSACTION_STATUS: RX_DOSAGE_REMINDER
+      REQUEST_ID: 8afa928e-58f0-4cfd-86ca-a9d63c1e5dbe
+      BASE_URL: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventrestlistener/v1/event/rxwa-pharmacy/notification/
+      BANNER: UNITED
+      HEADERS_Content_Type: application/json
+      CONTENT_LENGTH: 226
+      HEADERS_HOST: rxie.qa2.westus.aks.az.albertsons.com
+      NOTIFICATION_SOURCE: rxwa-pharmacy
+      ID:
+      FIRST_Name:
+      LAST_Name:
+      STORE_NUM:
+      PRESCRIPTION_NUMBER:
+      DELIVERY_MODE: delivery
+      PLATFORM: Android
+      OBJ_ID: eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI4Njc2MDc3ZS0xNmVkLTQ4OGMtYWFhZi01NzE1NjA3ODE2MDUifQ.eyJpYXQiOjE2NjYwMTk2NjQsImp0aSI6IjY2ODg5NTQ1LTM5YmUtNDY0OS05MGZlLTUxYmMzMGYwZjEwMCIsImlzcyI6Imh0dHBzOi8vYXV0aC5wZXJmZWN0b21vYmlsZS5jb20vYXV0aC9yZWFsbXMvc2FmZXdheS1wZXJmZWN0b21vYmlsZS1jb20iLCJhdWQiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL3NhZmV3YXktcGVyZmVjdG9tb2JpbGUtY29tIiwic3ViIjoiYWY3ZDM5MTctNmQzYy00YmIwLWFiMmYtNjI0OTVmNDIzMDI1IiwidHlwIjoiT2ZmbGluZSIsImF6cCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwibm9uY2UiOiI0YzVlYzhlNS1jMmFhLTQwMjAtOGZmNy1lOTA4ODlkMDYyNTkiLCJzZXNzaW9uX3N0YXRlIjoiNGQ3YjQ0YjUtNjUyNC00Mjg4LWJkZGQtMzQ0NjNiODBjYjdkIiwic2NvcGUiOiJvcGVuaWQgb2ZmbGluZV9hY2Nlc3MifQ.OjyHcIqPtfJ98-Dnaceu1zkSpTAdldxwnGVSmb8Nyz0
+      LAST_ACCESSED: 2022-12-13T09:15:38.036Z
+      DEVICES: devices
+      EXPECTED_SUBJECT: Pharmacy medication reminder
+      EXPECTED_PREHEADER: Let's kick off your health journey together!
+      EXPECTED_SENDER: UNITED Pharmacy / noreply@united.com
+      EXPECTED_MAILBODY1: Hi
+      EXPECTED_MAILBODY2: It's time to take your
+      EXPECTED_MAILBODY3: dose of  .
+      EXPECTED_MAILBODY4: You have enabled email notifications to remind you
+      EXPECTED_MAILBODY5: when to take this medication.
+      EXPECTED_MAILBODY6: Dosage instructions
+      EXPECTED_MAILBODY7: Please visit your prescription details page for more information.
+      EXPECTED_LINK: guestservices@unitedtexas.com
+      EXPECTED_TITLE1: United - Home | Facebook
+      EXPECTED_TITLE2: United (@united) • Instagram photos and videos
+      EXPECTED_TITLE3: United (@United) / X
+      EXPECTED_TITLE4: Pinterest
+      EXPECTED_TITLE5: United - YouTube
+      EXPECTED_TITLE6: United Deals & Delivery on the App Store
+      EXPECTED_TITLE7: United Deals & Delivery - Apps on Google Play
+

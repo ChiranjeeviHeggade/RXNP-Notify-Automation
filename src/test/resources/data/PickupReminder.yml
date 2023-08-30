@@ -1,0 +1,144 @@
+safeway:
+  qa2:
+    android:
+      EMAIL: testpush27june@mail7.io
+      PASSWORD: Welcome123
+      PIN: 1111
+      USER: testpush27june
+      CLIENT_ID: 137531
+      BASE_URL: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventlistener/v1/event/partner/chc/eopn
+      BANNER: SAFEWAY
+      HEADERS_Content_Type: text/xml
+      CONTENT_LENGTH: 226
+      #HEADERS_HOST: rxie.qa2.westus.aks.az.albertsons.com
+      #NOTIFICATION_SOURCE: rxwa-pharmacy
+      ID: 13724502
+      FIRST_Name: Carol
+      LAST_Name: GREENE
+      STORE_NUM: 9816
+      PRESCRIPTION_NUMBER: 6018813
+      DATE_OF_BIRTH: 1980-05-10T20:00:00Z
+      MOBILE_NUMBER: 8189750320
+      DELIVERY_MODE: DELIVERY
+      PLATFORM: Android
+      OBJ_ID: fPTXoJGWZn8:APA91bGnAGm_9r_hm1ws9fHv8Mtze09v85_L5uDY6lHoX2bF7gKyFoUFBQZMiTT9NcJzjgxhiLiDHIjiEB5Wrc8WuzSStiLA_SenXyKxAviNxWRENi1dgCvzpRX3-OX9AVmpew4tlCQQ
+      LAST_ACCESSED: 2022-12-13T09:15:38.036Z
+      DEVICES: devices
+      NONACIZIPCODE: 79904
+      Banner: safeway
+      ACIZIPCODE: 79606
+      ExpectedPushNotification: SAFEWAY Pharmacy - Your prescription is ready to be picked up.
+      EXPECTED_PUSHTITLE1: Pickup
+      EXPECTED_PUSHTITLE2: Reminder
+      EXPECTED_PUSHTITLE3: Notification
+      EXPECTED_PUSHBODY1: SAFEWAY Pharmacy -
+      EXPECTED_PUSHBODY2: Your prescription is
+      EXPECTED_PUSHBODY3: ready to be picked up.
+      EXPECTED_PUSHTITLE: Pickup Reminder Notification
+      EXPECTED_PUSHBODY: SAFEWAY Pharmacy - Your prescription is ready to be picked up.
+randalls:
+  qa2:
+    android:
+      EMAIL: testpush27june@mail7.io
+      PASSWORD: Welcome123
+      PIN: 1111
+      USER: testpush27june
+      BASE_URL: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventrestlistener/v1/event/rxwa-pharmacy/notification/
+      TRANSACTION_STATUS: RX_DOSAGE_REMINDER
+      REQUEST_ID: 8afa928e-58f0-4cfd-86ca-a9d63c1e5dbe
+      BANNER: RANDALLS
+      HEADERS_Content_Type: application/json
+      CONTENT_LENGTH: 226
+      HEADERS_HOST: rxie.qa2.westus.aks.az.albertsons.com
+      NOTIFICATION_SOURCE: rxwa-pharmacy
+      ID: 13724502
+      FIRST_Name: Carol
+      LAST_Name: GREENE
+      STORE_NUM: 9816
+      PRESCRIPTION_NUMBER: 6018813
+      DELIVERY_MODE: DELIVERY
+      PLATFORM: Android
+      OBJ_ID: fPTXoJGWZn8:APA91bGnAGm_9r_hm1ws9fHv8Mtze09v85_L5uDY6lHoX2bF7gKyFoUFBQZMiTT9NcJzjgxhiLiDHIjiEB5Wrc8WuzSStiLA_SenXyKxAviNxWRENi1dgCvzpRX3-OX9AVmpew4tlCQQ
+      LAST_ACCESSED: 2022-12-13T09:15:38.036Z
+      DEVICES: devices
+      NONACIZIPCODE: 79904
+      Banner: randalls
+      ACIZIPCODE: 79606
+      ExpectedPushNotification: RANDALLS Pharmacy - Your prescription is ready to be picked up.
+      EXPECTED_PUSHTITLE1: Pickup
+      EXPECTED_PUSHTITLE2: Reminder
+      EXPECTED_PUSHTITLE3: Notification
+      EXPECTED_PUSHBODY1: RANDALLS Pharmacy -
+      EXPECTED_PUSHBODY2: Your prescription is
+      EXPECTED_PUSHBODY3: ready to be picked up.
+albertsons:
+  qa2:
+    android:
+      EMAIL: testpush27june@mail7.io
+      PASSWORD: Welcome123
+      PIN: 1111
+      USER: testpush27june
+      BASE_URL: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventrestlistener/v1/event/rxwa-pharmacy/notification/
+      TRANSACTION_STATUS: RX_DOSAGE_REMINDER
+      REQUEST_ID: 8afa928e-58f0-4cfd-86ca-a9d63c1e5dbe
+      BANNER: ALBERTSONS
+      HEADERS_Content_Type: application/json
+      CONTENT_LENGTH: 226
+      HEADERS_HOST: rxie.qa2.westus.aks.az.albertsons.com
+      NOTIFICATION_SOURCE: rxwa-pharmacy
+      ID: 13724502
+      FIRST_Name: Carol
+      LAST_Name: GREENE
+      STORE_NUM: 9816
+      PRESCRIPTION_NUMBER: 6018813
+      DELIVERY_MODE: DELIVERY
+      PLATFORM: Android
+      OBJ_ID: fPTXoJGWZn8:APA91bGnAGm_9r_hm1ws9fHv8Mtze09v85_L5uDY6lHoX2bF7gKyFoUFBQZMiTT9NcJzjgxhiLiDHIjiEB5Wrc8WuzSStiLA_SenXyKxAviNxWRENi1dgCvzpRX3-OX9AVmpew4tlCQQ
+      LAST_ACCESSED: 2022-12-13T09:15:38.036Z
+      DEVICES: devices
+      NONACIZIPCODE: 79904
+      Banner: albertsons
+      ACIZIPCODE: 79606
+      ExpectedPushNotification: ALBERTSONS Pharmacy - Your prescription is ready to be picked up.
+      EXPECTED_PUSHTITLE1: Pickup
+      EXPECTED_PUSHTITLE2: Reminder
+      EXPECTED_PUSHTITLE3: Notification
+      EXPECTED_PUSHBODY1: ALBERTSONS Pharmacy -
+      EXPECTED_PUSHBODY2: Your prescription is
+      EXPECTED_PUSHBODY3: ready to be picked up.
+unitedsupermarkets:
+  qa2:
+    android:
+      EMAIL:
+      PASSWORD:
+      PIN: 1111
+      USER:
+      BASE_URL: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventrestlistener/v1/event/rxwa-pharmacy/notification/
+      TRANSACTION_STATUS: RX_DOSAGE_REMINDER
+      REQUEST_ID: 8afa928e-58f0-4cfd-86ca-a9d63c1e5dbe
+      BANNER: UNITED
+      HEADERS_Content_Type: application/json
+      CONTENT_LENGTH: 226
+      HEADERS_HOST: rxie.qa2.westus.aks.az.albertsons.com
+      NOTIFICATION_SOURCE: rxwa-pharmacy
+      ID: 13724502
+      FIRST_Name:
+      LAST_Name:
+      STORE_NUM: 0546
+      PRESCRIPTION_NUMBER:
+      DELIVERY_MODE: DELIVERY
+      PLATFORM: Android
+      OBJ_ID: fPTXoJGWZn8:APA91bGnAGm_9r_hm1ws9fHv8Mtze09v85_L5uDY6lHoX2bF7gKyFoUFBQZMiTT9NcJzjgxhiLiDHIjiEB5Wrc8WuzSStiLA_SenXyKxAviNxWRENi1dgCvzpRX3-OX9AVmpew4tlCQQ
+      LAST_ACCESSED: 2022-12-13T09:15:38.036Z
+      DEVICES: devices
+      NONACIZIPCODE: 79904
+      Banner: UNITED
+      ACIZIPCODE: 79606
+      ExpectedPushNotification: UNITED Pharmacy - Your prescription is ready to be picked up.
+      EXPECTED_PUSHTITLE1: Pickup
+      EXPECTED_PUSHTITLE2: Reminder
+      EXPECTED_PUSHTITLE3: Notification
+      EXPECTED_PUSHBODY1: UNITED Pharmacy -
+      EXPECTED_PUSHBODY2: Your prescription is
+      EXPECTED_PUSHBODY3: ready to be picked up.
+

@@ -1,0 +1,26 @@
+safeway:
+  qa2:
+    api:
+      USER: testpush27june
+      BASE_URL: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventlistener/v1/event/partner/chc/eopn
+      BASE_URL_BatchJob: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventreminderjob/start-job?timeZone=America/Denver&chainId=439
+      BANNER: SAFEWAY
+      HEADERS_Content_Type: text/xml
+      ID: 13724502
+      CLIENT_ID: 137531
+      FIRST_Name: Carol
+      LAST_Name: GREENE
+      STORE_NUM: 9816
+      PRESCRIPTION_NUMBER: 6018816
+      DATE_OF_BIRTH: 1980-05-10T20:00:00Z
+      MOBILE_NUMBER: 6463710063
+      EXPECTED_SUBJECT: Your SAFEWAY Pharmacy Preion is Ready for Pickup
+      EXPECTED_SENDER: SAFEWAY Pharmacy <noreply@safeway.com>
+      EXPECTED_MAILBODY1: A
+      EXPECTED_MAILBODY2: B
+      EXPECTED_MAILBODY3: C
+      EXPECTED_MAILBODY4: D
+      EXPECTED_MAILBODY5: E
+      EXPECTED_MAILBODY6: F
+      EXPECTED_MAILBODY7: G
+      EXPECTED_LINK: guestservices@unitedtexas.com

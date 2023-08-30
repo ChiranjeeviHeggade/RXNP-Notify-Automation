@@ -1,0 +1,32 @@
+safeway:
+  qa2:
+    api:
+      USER: testpush27june
+      BASE_URL: https://rxie.qa2.westus.aks.az.albertsons.com/rxieeventlistener/v1/event/partner/chc/eopn
+      BANNER: SAFEWAY
+      HEADERS_Content_Type: text/xml
+      CLIENT_ID: 137531
+      ID: 13751510
+      FIRST_Name: Randy
+      LAST_Name: Whitaker
+      STORE_NUM: 9816
+      PRESCRIPTION_NUMBER: 6020635
+      DATE_OF_BIRTH: 2015-10-30T20:00:00Z
+      MOBILE_NUMBER: 8189750320
+      EXPECTED_SUBJECT: SAFEWAY Pharmacy - Your prescription request cannot be completed.
+      EXPECTED_SENDER: SAFEWAY Pharmacy <noreply@safeway.com>
+      EXPECTED_MAILBODY1: Hi <FirstName>
+      EXPECTED_MAILBODY2: Your prescription
+      EXPECTED_MAILBODY3: for <PrescriptionName>
+      EXPECTED_MAILBODY4: cannot be completed
+      EXPECTED_MAILBODY5: at this time.
+      EXPECTED_MAILBODY6: Please contact the pharmacy
+      EXPECTED_MAILBODY7: for more information.
+      EXPECTED_LINK: guestservices@unitedtexas.com
+      EXPECTED_TITLE1: Safeway - Home | Facebook
+      EXPECTED_TITLE2: Safeway (@safeway) • Instagram photos and videos
+      EXPECTED_TITLE3: Safeway (@Safeway) / X
+      EXPECTED_TITLE4: Pinterest
+      EXPECTED_TITLE5: Safeway - YouTube
+      EXPECTED_TITLE6: Safeway Deals & Delivery on the App Store
+      EXPECTED_TITLE7: Safeway Deals & Delivery - Apps on Google Play
